@@ -7,7 +7,7 @@ An attempt is made to cover all requirements, including optional ones. In the pr
 #### Clone the project:
 
 ```
-git clone --recursive git@github.com:megui88/toolbox-challenge.git
+git clone git@github.com:megui88/toolbox-challenge.git
 ```
 
 #### Run docker-compose:
@@ -32,7 +32,7 @@ $ curl -v -X GET "http://0.0.0.0:8081/iecho?text=test" -H "accept:  application/
 #### Clone the project:
 
 ```
-git clone --recursive git@github.com:megui88/toolbox-challenge.git
+git clone git@github.com:megui88/toolbox-challenge.git
 ```
 
 ##### Backend
@@ -45,7 +45,7 @@ npm start
 
 ##### Frontend
 ```
-cd toolbox-challenge/fronend
+cd toolbox-challenge/frontend
 npm install
 npm start
 ```
@@ -65,7 +65,7 @@ $ curl -v -X GET "http://0.0.0.0:8081/iecho?text=test" -H "accept:  application/
 #### Clone the project:
 
 ```
-git clone --recursive git@github.com:megui88/toolbox-challenge.git
+git clone git@github.com:megui88/toolbox-challenge.git
 ```
 
 ##### Backend
@@ -78,7 +78,7 @@ npm test
 
 ##### Frontend
 ```
-cd toolbox-challenge/fronend
+cd toolbox-challenge/frontend
 npm install
 npm test
 ```
@@ -88,6 +88,6 @@ npm test
 ## Please remember clear your workspace
 
 ```
-rm -Rf toolbox-challenge/fronend
+rm -Rf toolbox-challenge
 docker rmi megui88/toolbox-challenge:backend megui88/toolbox-challenge:frontend --force
 ```
