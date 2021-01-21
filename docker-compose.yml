@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  api:
+    build: "./backend"
+    image: "megui88/toolbox-challenge:backend"
+    ports:
+      - "8081:8081"
+    command: yarn start
+  ui:
+    build: "./frontend"
+    image: "megui88/toolbox-challenge:frontend"
+    ports:
+      - "8080:8080"

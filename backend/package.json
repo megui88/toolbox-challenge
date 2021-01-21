@@ -1,0 +1,22 @@
+{
+  "name": "megui88-toolbox-challenge-api",
+  "version": "0.0.1",
+  "description": "ToolBox [v2] Full Stack JS - Code Challenge - Español ",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "standard src/**/*.js && mocha test/**/*.test.js --exit"
+  },
+  "author": "Mariano German Egui <egui.mariano@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "supertest": "^6.1.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
