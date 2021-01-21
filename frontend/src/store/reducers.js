@@ -1,8 +1,8 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from 'redux'
 import textResults from './textResults'
 
 const reducers = combineReducers({
-    textResults,
-});
+  textResults
+})
 
 export default reducers

@@ -7,7 +7,7 @@
     "dev": "webpack --mode development",
     "start": "webpack serve --host 0.0.0.0",
     "build": "webpack --mode production",
-    "test": "jest"
+    "test": "eslint src/**/*.js && jest"
   },
   "author": "Mariano German Egui <egui.mariano@gmail.com>",
   "license": "ISC",
@@ -27,6 +27,12 @@
     "css-loader": "^5.0.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
     "html-webpack-plugin": "^4.5.1",
     "jest": "^26.6.3",
     "react-test-renderer": "^17.0.1",
